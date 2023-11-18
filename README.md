@@ -29,10 +29,15 @@ Continent Totals:
 Calculated each continent's total number of cases, deaths, and recovered individuals.
 
 North America: Cases (5,919,209), Deaths (229,855), Recovered (3,151,678)
+
 Asia: Cases (4,689,794), Deaths (100,627), Recovered (3,508,170)
-South America: Cases (4,543,273),	Deaths (154,885), Recovered	(3,116,150)
+
+South America: Cases (4,543,273),	Deaths (154,885), Recovered (3,116,150)
+
 Europe: Cases (2,982,576), Deaths	(205,232), Recovered	(1,587,302)
+
 Africa: Cases (1,011,867), Deaths	(22,114), Recovered	(693,620)
+
 Australia/Oceania: Cases (21,735), Deaths	(281), Recovered	(12,620)
 
 ### 4. Testing Efforts
