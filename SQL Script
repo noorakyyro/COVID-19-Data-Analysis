@@ -73,7 +73,14 @@ ORDER BY
 
 SELECT 
     Location,
-    TotalTests,
+    TotalTests
+FROM 
+    dbo.info
+ORDER BY 
+    TotalTests DESC
+
+SELECT 
+    Location,
     TestsPer1Mpop
 FROM 
     dbo.info
@@ -105,23 +112,3 @@ GROUP BY
     Continent
 ORDER BY 
     RecoveryRate DESC
-
--- Examining if there is a correlation between the total number of tests conducted and the number of total cases for each country
-
-SELECT 
-    Location,
-    TotalTests,
-    TotalCases
-FROM 
-    dbo.info
-ORDER BY 
-    TotalTests DESC
-
-SELECT 
-    Location,
-    TotalTests,
-    TotalCases
-FROM 
-    dbo.info
-ORDER BY 
-    TotalCases DESC
